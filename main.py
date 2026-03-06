@@ -4,7 +4,7 @@ import telebot
 from supabase import create_client
 
 TOKEN = os.getenv("8617499109:AAEbYow81YJqmvpWShLBaGiIqoqwwC6joJY")
-URL = os.getenv("URL_APP")
+URL = os.getenv("https://mi-bot-telegram-j6a6.onrender.com")
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
