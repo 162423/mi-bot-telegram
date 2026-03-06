@@ -3,7 +3,7 @@ from flask import Flask, request
 import telebot
 from supabase import create_client
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8617499109:AAEbYow81YJqmvpWShLBaGiIqoqwwC6joJY")
 URL = os.getenv("URL_APP")
 
 bot = telebot.TeleBot(TOKEN)
